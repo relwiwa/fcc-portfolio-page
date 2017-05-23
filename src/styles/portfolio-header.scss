@@ -1,0 +1,45 @@
+@import './portfolio-page.general.scss';
+
+.portfolio-header {
+  padding-left:20px;
+  position:relative;
+  background:#fff;
+  box-shadow:0px 0px 25px #fff;
+  z-index:500;
+
+  .row {
+    max-width:100%;
+  }
+
+  nav.column {
+    vertical-align:bottom;
+    display:table-cell;
+    height:100%;
+    font-size:18px;
+    margin-top:20px;
+    @media screen and (min-width: 40em) {
+      margin-top:50px;
+      font-size:24px;
+    }
+
+    a:hover {
+      text-decoration:underline;
+    }
+  }
+}
+
+.portfolio-logo {
+  img {
+    width:80px;
+    height:80px;    
+    @media screen and (min-width: 40em) {
+      position:relative;
+      left:5px;
+    }    
+  }
+
+  a {
+    font-size:1.2em;
+    color:$colorPrimary;
+  }
+}

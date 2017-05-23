@@ -4,7 +4,7 @@ class PortfolioAbout extends React.Component {
 
   render() {
     return(
-      <div className="portfolio-about">
+      <div className="portfolio-about" id="portfolio-about">
         Portfolio About
       </div>
     );
