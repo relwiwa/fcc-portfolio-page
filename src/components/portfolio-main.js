@@ -14,9 +14,11 @@ class PortfolioMain extends React.Component {
         <PortfolioIntro
           introData={portfolioData['intro']}
         />
-        <PortfolioAbout />
         <PortfolioProjects
           projectsData={portfolioData['projects']} />
+        <PortfolioAbout
+          aboutData={portfolioData['about']}
+        />
         <PortfolioContact
           contactData={portfolioData['contact']}
         />

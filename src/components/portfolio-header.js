@@ -14,8 +14,8 @@ const PortfolioHeader = (props) => {
         </div>
         <nav className="column small-12 medium-8 large-6">
           <ul className="menu vertical expanded medium-horizontal text-center">
-            <li><a href="#portfolio-about" title="Go to About Section">About</a></li>
             <li><a href="#portfolio-projects" title="Go to Projects Section">Projects</a></li>
+            <li><a href="#portfolio-about" title="Go to About Section">About</a></li>
             <li><a href="#portfolio-contact" title="Go to Contact Section">Contact</a></li>
           </ul>
         </nav>

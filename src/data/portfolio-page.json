@@ -1,4 +1,35 @@
 {
+  "about": {
+    "sections": [
+      {
+        "title": "Full-Stack Web Developer",
+        "description": [
+          "Web Development has been part of my life for more than 15 years",
+          "I've always been able to successfully transfer my self-educated skillset to job positions",
+          "Companies I've worked for include Yahoo, Interhyp and Interlake",
+          "Furthermore, I gained formal knowledge during my studies of Computer Science as a Minor Subject",
+          "I decided against studying Computer Science again as a major subject. Instead, I gained tons of practical knowledge by attending online courses on Udacity, Udemy, Egghead, etc."          
+        ],
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495711880/portfolio-page/web-design-2038872_640.jpg",
+          "source": "https://pixabay.com/de/web-design-laptop-html-design-2038872",
+          "licence": "CC0 Public Domain"
+        }
+      }, {
+        "title": "Curiously Exploring New Horizons",
+        "description": [
+          "I've always been driven by a curiosity to explore new areas: Languages, Job Opportunitites, Sports, Cultures",
+          "So 'hello world' is not just the first line of code, I've written in many programming languages. What is more, it literally sums up what I've accomplished in my life so far",
+          "I've made it from a working class family to gain an Academic Master's Degree: Comparative Religion, Computer and Social Science reflect my diverse skillset",
+          "I also continuously widened my geographic scope: From the small village I left at 16, to studying cultures, and finally, getting to explore this world as a flight attendant for real"
+        ],
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495711829/portfolio-page/walter-machu-picchu.jpg"
+        }
+
+      }
+    ]
+  },
   "intro": {
     "technologyIcons": [
       {
