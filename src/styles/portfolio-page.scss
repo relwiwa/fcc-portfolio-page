@@ -1,8 +1,30 @@
+@import './portfolio-page.general.scss';
+
 html {
   height:100%;
-  background: no-repeat fixed linear-gradient(200deg, #ffed4b 60%, #fdcd3b 60%);
+  background: no-repeat fixed linear-gradient(200deg, $colorBackground1 60%, $colorBackground2 40%);
 }
 
 body {
   background:none;
+}
+
+.portfolio-contact.row, .portfolio-about.row, .portfolio-projects.row {
+  @media screen and (max-width: 76em) {
+    max-width:99%;  
+  }
+}
+  
+.portfolio-about .callout, .portfolio-projects .callout {
+  @media screen and (max-width: 39.938em) {
+    padding:0.65rem;
+  }
+}
+
+.portfolio-about.row .column .row .column,
+.portfolio-projects.row .column .row .column {
+  @media screen and (max-width: 39.938em) {
+    margin-left:0;
+    margin-right:0;
+  }
 }

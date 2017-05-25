@@ -12,7 +12,9 @@ const PortfolioContact = (props) => {
         className="column column-block text-center"
         key={title}
       >
-        <a href={url} title={description}><img src={image.url} alt={description} /></a>
+        <a href={url} title={description}>
+          <img src={image.url} alt={description} />
+        </a>
       </div>
     );
   };
