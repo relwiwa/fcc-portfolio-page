@@ -1,11 +1,13 @@
 @import './portfolio-page.general.scss';
 
 .portfolio-header {
-  padding-left:20px;
   position:relative;
   background: $colorHeaderBackground;
   box-shadow:0px 0px 25px $colorHeaderBackground;
   z-index:500;
+  @media screen and (min-width: 40em) {
+    padding-left:20px;
+  }
 
   .row {
     max-width:100%;

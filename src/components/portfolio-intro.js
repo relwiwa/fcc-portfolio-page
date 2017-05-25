@@ -23,9 +23,8 @@ const PortfolioIntro = (props) => {
       <div className="callout secondary">
         <div className="row">
           <div className="column small-12 text-center">
-            <h1>Welcome to My<nobr>Portfolio Page!</nobr></h1>
+            <h1>Welcome to My <nobr>Portfolio Page!</nobr></h1>
             <p className="lead">My name is Walter. I am a Flight Attendant with a Computer Science Minor and a lot more</p>
-            <p className="lead">After several years of travelling, I intend to get both feet back on the ground by becoming a Full-Stack Developer</p>
             <p className="lead">This page features <a href="#portfolio-projects" title="Go to Projects section">projects I've been building</a> as part of FreeCodeCamp's Certification</p>
             <p className="lead">You can <a href="#portfolio-about" title="Go to About section">find out more about me</a> and learn how to <a href="#portfolio-contact" title="Go to Contact section">contact me</a></p>
           </div>

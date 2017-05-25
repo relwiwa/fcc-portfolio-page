@@ -36,7 +36,7 @@ class PortfolioProjects extends React.Component {
             </ul>
           </div>
           <div className="card-section" data-equalizer-watch="equalizer-projects">
-            <h4>{title}</h4>
+            <h4>{title} Projects</h4>
             <p>{description}</p>
             <p>Some of the things I learned were:</p>
             <ul>{lessonsLearned.map((lesson) => <li key={lesson.substr(0, 10)}>{lesson}</li> )}</ul>

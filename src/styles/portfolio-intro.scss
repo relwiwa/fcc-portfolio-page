@@ -2,6 +2,13 @@
 
 .portfolio-intro {
 
+  .lead {
+    font-size:100%;
+    @media screen and (min-width: 40em) {
+      font-size:125%;
+    }    
+  }
+
   .callout {
     padding-top:50px;
     background:$colorIntroBackground;
