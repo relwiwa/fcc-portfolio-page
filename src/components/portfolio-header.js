@@ -22,7 +22,7 @@ class PortfolioHeader extends React.Component {
         <div className="portfolio-logo row">
           <div className="column small-12 medium-4 text-center medium-text-left">
             <a href="#portfolio-top">
-              <img src="http://res.cloudinary.com/dqzrtsqol/image/upload/v1495559680/portfolio-page/relwiwa-logo.svg" alt="Logo" /><br />
+              <img src="https://res.cloudinary.com/dqzrtsqol/image/upload/v1495559680/portfolio-page/relwiwa-logo.svg" alt="Logo" /><br />
             </a>
             <a href="#portfolio-top">RELWIWA</a>
           </div>
