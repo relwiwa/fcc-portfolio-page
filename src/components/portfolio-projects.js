@@ -1,5 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
 
 import 'script-loader!jquery/dist/jquery.slim.min';
 import 'script-loader!foundation-sites/dist/js/foundation';
@@ -71,7 +70,7 @@ class PortfolioProjects extends React.Component {
           <p>All projects were built responsively, based on either Foundation or Bootstraps' grid systems.</p>
           <p>I used a diverse set of frameworks, ranging from pure Javascript to AngularJS and Angular to React with and without a Redux Store.</p>
           <div className="row" id="equalizer-projects" data-equalizer="equalizer-projects" data-equalize-on-stack="true" data-equalize-on="medium">
-            {_.map(projectsData, (category) => this.renderCategory(category))}
+            {projectsData.map((category) => this.renderCategory(category))}
           </div>
         </div>
       </div>

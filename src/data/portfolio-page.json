@@ -140,8 +140,8 @@
       }
     }
   ],
-  "projects": {
-    "frontend": {
+  "projects": [
+    {
       "title": "Frontend",
       "route": "frontend",
       "description": "The Frontend Projects are built in vanilla Javascript, jQuery, AngularJS, and finally, React.",
@@ -325,8 +325,7 @@
           }
         }
       ]
-    },
-    "dataViz": {
+    }, {
       "title": "Data Viz",
       "route": "data-viz",
       "description": "Half of the projects are about React. Instead of Foundation, I used Bootstrap 4 for these projects. The other half of the projects is about visualizing data with D3. I integrated these into Angular.",
@@ -359,8 +358,7 @@
           "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495567607/portfolio-page/scatterplot-graph.png"
         }
       ]
-    },
-    "backend": {
+    }, {
       "title": "Backend",
       "route": "backend",
       "description": "The backend projects are all set in the Node environment. On the one hand, they are about providing data via restful APIs. On the other hand, they focus on building various full-stack applications.",
@@ -377,5 +375,5 @@
         }
       ]
     }
-  }
+  ]
 }
