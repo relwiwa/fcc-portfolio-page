@@ -1,12 +1,13 @@
 import React from 'react';
 import _ from 'lodash';
 
-import projects from '../data/portfolio-projects.json';
-
 import 'script-loader!jquery/dist/jquery.slim.min';
 import 'script-loader!foundation-sites/dist/js/foundation';
 
 class PortfolioProjects extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
   componentDidMount() {
     $('.portfolio-projects').foundation();
@@ -61,6 +62,8 @@ class PortfolioProjects extends React.Component {
   }
 
   render() {
+    const { projectsData } = this.props;
+
     return (
       <div className="portfolio-projects row" id="portfolio-projects">
         <div className="column callout small-12">
@@ -68,7 +71,7 @@ class PortfolioProjects extends React.Component {
           <p>All projects were built responsively, based on either Foundation or Bootstraps' grid systems.</p>
           <p>I used a diverse set of frameworks, ranging from pure Javascript to AngularJS and Angular to React with and without a Redux Store.</p>
           <div className="row" id="equalizer-projects" data-equalizer="equalizer-projects" data-equalize-on-stack="true" data-equalize-on="medium">
-            {_.map(projects, (category) => this.renderCategory(category))}
+            {_.map(projectsData, (category) => this.renderCategory(category))}
           </div>
         </div>
       </div>
