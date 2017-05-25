@@ -27,7 +27,7 @@ class PortfolioHeader extends React.Component {
             <a href="#portfolio-top">RELWIWA</a>
           </div>
           <button
-            className="close-button show-for-small-only"
+            className="menu-button show-for-small-only"
             aria-label="Toggle Navigation on small screens"
             type="button"
             onClick={() => this.toggleNavigation()}

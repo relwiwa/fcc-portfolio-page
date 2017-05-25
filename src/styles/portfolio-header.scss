@@ -29,7 +29,12 @@
     }
   }
 
-  .close-button {
+  .menu-button {
+    position:absolute;
+    right:1rem;
+    top:0.5rem;
+    line-height:1;
+    cursor:pointer;
     font-size:1em;
     margin-top:76px;
     color:$colorPrimary;
