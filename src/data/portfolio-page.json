@@ -11,7 +11,7 @@
           "I decided against studying Computer Science again as a major subject. Instead, I gained tons of practical knowledge by attending online courses on Udacity, Udemy, Egghead, etc."          
         ],
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495711880/portfolio-page/web-design-2038872_640.jpg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495711880/portfolio-page/web-design-2038872_640.jpg",
           "source": "https://pixabay.com/de/web-design-laptop-html-design-2038872",
           "licence": "CC0 Public Domain"
         }
@@ -24,7 +24,7 @@
           "I also continuously widened my geographic scope: From the small village I left at 16, to studying cultures, and finally, getting to explore this world as a flight attendant for real"
         ],
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495711829/portfolio-page/walter-machu-picchu.jpg"
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495711829/portfolio-page/walter-machu-picchu.jpg"
         }
 
       }
@@ -35,55 +35,55 @@
       {
         "title": "Javasript",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/javascript.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/javascript.svg",
           "source": "https://worldvectorlogo.com/de/logo/javascript"
         }
       }, {
         "title": "React",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/react.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/react.svg",
           "source": "https://worldvectorlogo.com/de/logo/react"
         }
       }, {
         "title": "NodeJS",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495709855/technology-icons/nodejs.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495709855/technology-icons/nodejs.svg",
           "source": "https://worldvectorlogo.com/de/logo/nodejs-icon"
         }
       }, {
         "title": "Bootstrap",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/bootstrap.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/bootstrap.svg",
           "source": "https://worldvectorlogo.com/de/logo/bootstrap-4"
         }
       }, {
         "title": "Webpack",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/webpack-icon.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/webpack.svg",
           "source": "https://worldvectorlogo.com/de/logo/webpack"
         }
       }, {
         "title": "Angular",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/angular.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/angular.svg",
           "source": "https://worldvectorlogo.com/de/logo/angular-icon"
         }
       }, {
         "title": "Redux",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708772/technology-icons/redux.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708772/technology-icons/redux.svg",
           "source": "https://worldvectorlogo.com/de/logo/redux"
         }
       }, {
         "title": "D3",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/d3.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/d3.svg",
           "source": "https://worldvectorlogo.com/de/logo/d3-2"
         }
       }, {
         "title": "Sass",
         "image": {
-          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708592/technology-icons/sass.svg",
+          "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495708592/technology-icons/sass.svg",
           "source": "https://worldvectorlogo.com/de/logo/node-sass"
         }
       }
@@ -95,7 +95,7 @@
       "description": "Visit My FreeCodeCamp Profile",
       "url": "https://freecodecamp.com/relwiwa",
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/freecodecamp.png",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/freecodecamp.png",
         "source": "https://blog.codepen.io/documentation/brand-assets/logoss"
       }
     }, {
@@ -103,7 +103,7 @@
       "description": "Visit my Github Repository",
       "url": "https://github.com/relwiwa",
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/github.svg",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/github.svg",
         "source": "https://worldvectorlogo.com/logo/github-icon"
       }
     }, {
@@ -111,7 +111,7 @@
       "description": "Visit my Codepen Portfolio",
       "url": "https://codepen.io/relwiwa",      
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/codepen.png",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/codepen.png",
         "source": "https://blog.codepen.io/documentation/brand-assets/logos"
       }
     }, {
@@ -119,7 +119,7 @@
       "description": "Visit my Codewars Profile",
       "url": "https://www.codewars.com/users/relwiwa/",
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495704507/brand-icons/codewars.png",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495704507/brand-icons/codewars.png",
         "source": "https://www.codewars.com/assets/logos/logo-square-red-big-dc2f35502ee2b60882a41327c529521c.png"
       }
     }, {
@@ -127,7 +127,7 @@
       "description": "Visit my Udemy Profile",
       "url": "https://www.udemy.com/user/walter-schwede",
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/udemy.svg",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/udemy.svg",
         "source": "https://worldvectorlogo.com/logo/udemy"
       }
     }, {
@@ -135,7 +135,7 @@
       "description": "Visit my Hackerrank Profile",
       "url": "Visit my Hackerrank Profile",      
       "image": {
-        "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/hackerrank.png",
+        "url": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495700867/brand-icons/hackerrank.png",
         "source": "https://brandfolder.com/hackerrank"
       }
     }
@@ -156,7 +156,7 @@
         {
           "title": "Wikipedia Viewer",
           "route": "wikipedia-viewer",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/wikipedia-viewer.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/wikipedia-viewer.png",
           "userStories": [
             {
               "userStory": "I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.",
@@ -175,7 +175,7 @@
         }, {
           "title": "Tic Tac Toe",
           "route": "tic-tac-toe",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/tic-tac-toe.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/tic-tac-toe.png",
           "userStories": [
             {
               "userStory": "I can play a game of Tic Tac Toe with the computer.",
@@ -196,7 +196,7 @@
         }, {
           "title": "Simon Game",
           "route": "simon-game",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/simon-game.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/simon-game.png",
           "userStories": [
             {
               "userStory": "I am presented with a random series of button presses.",
@@ -243,7 +243,7 @@
         }, {
           "title": "Pomodoro Clock",
           "route": "pomodoro-clock",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/pomodoro-clock.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/pomodoro-clock.png",
           "userStories": [
             {
               "userStory": "I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.",
@@ -263,7 +263,7 @@
         }, {
           "title": "Javascript Calculator",
           "route": "javascript-calculator",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/calculator.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/calculator.png",
           "userStories": [
             {
               "userStory": "I can add, subtract, multiply and divide two numbers.",
@@ -283,7 +283,7 @@
         }, {
           "title": "Use twitch.tv JSON API",
           "route": "twitch-api-usage",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/twitch-tv.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/twitch-tv.png",
           "userStories": [
             {
               "userStory": "I can see whether Free Code Camp is currently streaming on Twitch.tv.",
@@ -306,7 +306,7 @@
         }, {
           "title": "Local Weather",
           "route": "local-weather",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/local-weather.png",
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561710/portfolio-page/local-weather.png",
           "userStories": [
             {
               "userStory": "I can see the weather in my current location.",
@@ -339,23 +339,23 @@
         {
           "title": "Markdown Previewer",
           "route": "markdown-previewer",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/markdown-previewer.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/markdown-previewer.png"
         }, {
           "title": "Camper Leaderboard",
           "route": "camper-leaderboard",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/leaderboard.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/leaderboard.png"
         }, {
           "title": "Game of Life",
           "route": "game-of-life",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/game-of-life.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/game-of-life.png"
         }, {
           "title": "Bar Chart",
           "route": "bar-chart",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495567607/portfolio-page/barchart.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495567607/portfolio-page/barchart.png"
         }, {
           "title": "Scatterplot Graph",
           "route": "scatterplot-graph",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495567607/portfolio-page/scatterplot-graph.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495567607/portfolio-page/scatterplot-graph.png"
         }
       ]
     }, {
@@ -371,7 +371,7 @@
         {
           "title": "Voting App",
           "route": "voting",
-          "screenshot": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/voting.png"
+          "screenshot": "https://res.cloudinary.com/dqzrtsqol/image/upload/v1495561374/portfolio-page/voting.png"
         }
       ]
     }
