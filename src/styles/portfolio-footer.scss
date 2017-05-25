@@ -1,15 +1,19 @@
+@import './portfolio-page.general.scss';
+
 .portfolio-footer {
+  margin-top:60px;
   font-size:0.8em;
   
   .callout {
-    color:#fff;
-    background:gray;
+    color:$colorFooter;
+    background:$colorFooterBackground;
     border-left:none;
     border-right:none;
     border-bottom:none;
+    margin-bottom:0px;
 
     a {
-      color: #fff;
+      color: $colorFooter;
     }
   }
 

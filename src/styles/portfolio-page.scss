@@ -1,15 +1,12 @@
 @import './portfolio-page.general.scss';
 
-html {
+body {
   height:100%;
   background: no-repeat fixed linear-gradient(200deg, $colorBackground1 60%, $colorBackground2 40%);
 }
 
-body {
-  background:none;
-}
-
 .portfolio-contact.row, .portfolio-about.row, .portfolio-projects.row {
+  margin-top:45px;
   @media screen and (max-width: 76em) {
     max-width:99%;  
   }
