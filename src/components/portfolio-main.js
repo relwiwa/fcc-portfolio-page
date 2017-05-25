@@ -11,7 +11,9 @@ class PortfolioMain extends React.Component {
   render() {
     return (
       <div className="portfolio-main">
-        <PortfolioIntro />
+        <PortfolioIntro
+          introData={portfolioData['intro']}
+        />
         <PortfolioAbout />
         <PortfolioProjects
           projectsData={portfolioData['projects']} />

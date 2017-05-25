@@ -2,3 +2,5 @@ node_modules
 build
 npm-debug.log*
 src/images/brand-icons
+src/images/technology-icons
+

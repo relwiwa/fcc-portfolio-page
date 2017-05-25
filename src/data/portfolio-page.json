@@ -1,4 +1,63 @@
 {
+  "intro": {
+    "technologyIcons": [
+      {
+        "title": "Javasript",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/javascript.svg",
+          "source": "https://worldvectorlogo.com/de/logo/javascript"
+        }
+      }, {
+        "title": "React",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/react.svg",
+          "source": "https://worldvectorlogo.com/de/logo/react"
+        }
+      }, {
+        "title": "NodeJS",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495709855/technology-icons/nodejs.svg",
+          "source": "https://worldvectorlogo.com/de/logo/nodejs-icon"
+        }
+      }, {
+        "title": "Bootstrap",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/bootstrap.svg",
+          "source": "https://worldvectorlogo.com/de/logo/bootstrap-4"
+        }
+      }, {
+        "title": "Webpack",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495707922/technology-icons/webpack-icon.svg",
+          "source": "https://worldvectorlogo.com/de/logo/webpack"
+        }
+      }, {
+        "title": "Angular",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/angular.svg",
+          "source": "https://worldvectorlogo.com/de/logo/angular-icon"
+        }
+      }, {
+        "title": "Redux",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708772/technology-icons/redux.svg",
+          "source": "https://worldvectorlogo.com/de/logo/redux"
+        }
+      }, {
+        "title": "D3",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708385/technology-icons/d3.svg",
+          "source": "https://worldvectorlogo.com/de/logo/d3-2"
+        }
+      }, {
+        "title": "Sass",
+        "image": {
+          "url": "http://res.cloudinary.com/dqzrtsqol/image/upload/v1495708592/technology-icons/sass.svg",
+          "source": "https://worldvectorlogo.com/de/logo/node-sass"
+        }
+      }
+    ]
+  },
   "contact": [
     {
       "title": "FreeCodeCamp",
