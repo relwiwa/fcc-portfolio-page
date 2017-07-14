@@ -29,7 +29,7 @@ const config = {
         loader: ExtractTextPlugin.extract({
           use: ['css-loader', 'sass-loader']
         }),
-        test: /\.scss$/
+        test: /\.s?css$/
       },
       {
         use: [
@@ -44,7 +44,7 @@ const config = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin({ filename: '[name].[chunkhash].css', allChunks: true }),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest']
     }),
