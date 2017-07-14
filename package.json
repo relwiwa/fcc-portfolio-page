@@ -32,6 +32,7 @@
   "dependencies": {
     "foundation-sites": "^6.4.1",
     "jquery": "^3.2.1",
+    "motion-ui": "^1.2.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }

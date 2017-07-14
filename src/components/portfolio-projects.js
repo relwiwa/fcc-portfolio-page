@@ -5,15 +5,29 @@ import { Foundation } from 'foundation-sites/js/foundation.core';
 import { MediaQuery } from 'foundation-sites/js/foundation.util.mediaQuery';
 import { ImageLoader } from 'foundation-sites/js/foundation.util.imageLoader';
 import { Equalizer } from 'foundation-sites/js/foundation.equalizer';
+import { Keyboard } from 'foundation-sites/js/foundation.util.keyboard';
+import { Motion } from 'foundation-sites/js/foundation.util.motion';
+import { Timer } from 'foundation-sites/js/foundation.util.timer';
+import { Touch } from 'foundation-sites/js/foundation.util.touch';
+import { Orbit } from 'foundation-sites/js/foundation.orbit/';
 
 class PortfolioProjects extends React.Component {
+  constructor(props) {
+    super(props);
+    this.reInitEqualizer = this.reInitEqualizer.bind(this);
+    this.reInitOrbits = this.reInitOrbits.bind(this);
+  }
 
   componentDidMount() {
     if (!$(document).foundation) {
       Foundation.addToJquery($);
     }
     new Equalizer($('#equalizer-portfolio-projects'));
-    addEventListener('resize', () => this.reInitEqualizer());
+    new Orbit($('#orbit-frontend'));
+    new Orbit($('#orbit-data-viz'));
+    new Orbit($('#orbit-backend'));
+    addEventListener('resize', this.reInitEqualizer);
+    addEventListener('resize', this.reInitOrbits);
   }
 
   componentDidUpdate() {
@@ -22,11 +36,23 @@ class PortfolioProjects extends React.Component {
 
   componentWillUnmount() {
     $('#equalizer-portfolio-projects').foundation('destroy');
+    $('#orbit-frontend').foundation('destroy');
+    $('#orbit-data-viz').foundation('destroy');
+    $('#orbit-backend').foundation('destroy');
+    removeEventListener('resize', this.reInitEqualizer)
+    removeEventListener('resize', this.reInitOrbits)
   }
 
   reInitEqualizer() {
     Foundation.reInit($('#equalizer-portfolio-projects'));
   }
+
+  reInitOrbits() {
+    Foundation.reInit($('#orbit-frontend'));
+    Foundation.reInit($('#orbit-data-viz'));
+    Foundation.reInit($('#orbit-backend'));
+  }
+
 
   renderCategory(specs) {
     const { description, lessonsLearned, projects, route, title, website } = specs;
@@ -35,7 +61,7 @@ class PortfolioProjects extends React.Component {
         <div className="card">
           {/* Orbit animation based on Motion-UI currently bugged when
               scrolling during animation of slides */}
-          <div className="orbit" id={'orbit-' + route} data-use-m-u-i="false" data-orbit={'orbit-' + route}>
+          <div className="orbit" id={'orbit-' + route} data-use-m-u-i="true" data-orbit={'orbit-' + route}>
             <ul className="orbit-container">
               <button className="orbit-previous">
                 <span className="show-for-sr">Previous Screenshot of {title} Project</span> &#9664;&#xFE0E;

@@ -7,13 +7,17 @@ import { ImageLoader } from 'foundation-sites/js/foundation.util.imageLoader';
 import { Equalizer } from 'foundation-sites/js/foundation.equalizer';
 
 class PortfolioAbout extends React.Component {
+  constructor(props) {
+    super(props);
+    this.reInitEqualizer = this.reInitEqualizer.bind(this);
+  }
 
   componentDidMount() {
     if (!$(document).foundation) {
       Foundation.addToJquery($);
     }
     new Equalizer($('#equalizer-portfolio-about'));
-    addEventListener('resize', () => this.reInitEqualizer());
+    addEventListener('resize', this.reInitEqualizer);
   }
 
   componentDidUpdate() {
@@ -22,6 +26,7 @@ class PortfolioAbout extends React.Component {
 
   componentWillUnmount() {
     $('#equalizer-portfolio-about').foundation('destroy');
+    removeEventListener('resize', this.reInitEqualizer);
   }
 
   reInitEqualizer() {
