@@ -1,19 +1,31 @@
 import React from 'react';
 
-import 'script-loader!jquery/dist/jquery.slim.min';
-import 'script-loader!foundation-sites/dist/js/foundation';
+import $ from 'jquery';
+import { Foundation } from 'foundation-sites/js/foundation.core';
+import { MediaQuery } from 'foundation-sites/js/foundation.util.mediaQuery';
+import { ImageLoader } from 'foundation-sites/js/foundation.util.imageLoader';
+import { Equalizer } from 'foundation-sites/js/foundation.equalizer';
 
 class PortfolioProjects extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   componentDidMount() {
-    $('.portfolio-projects').foundation();
+    if (!$(document).foundation) {
+      Foundation.addToJquery($);
+    }
+    new Equalizer($('#equalizer-portfolio-projects'));
+    addEventListener('resize', () => this.reInitEqualizer());
+  }
+
+  componentDidUpdate() {
+    this.reInitEqualizer();
   }
 
   componentWillUnmount() {
-    $('.portfolio-projects').foundation('destroy');
+    $('#equalizer-portfolio-projects').foundation('destroy');
+  }
+
+  reInitEqualizer() {
+    Foundation.reInit($('#equalizer-portfolio-projects'));
   }
 
   renderCategory(specs) {
@@ -34,7 +46,7 @@ class PortfolioProjects extends React.Component {
               {this.renderOrbitSlides(projects)}
             </ul>
           </div>
-          <div className="card-section" data-equalizer-watch="equalizer-projects">
+          <div className="card-section" data-equalizer-watch="equalizer-portfolio-projects">
             <h4>{title} Projects</h4>
             <p>{description}</p>
             <p>Some of the things I learned were:</p>
@@ -69,7 +81,7 @@ class PortfolioProjects extends React.Component {
           <h1>Projects <small>freeCodeCamp</small></h1>
           <p>All projects were built responsively, based on either Foundation or Bootstraps' grid systems.</p>
           <p>I used a diverse set of frameworks, ranging from pure Javascript to AngularJS and Angular to React with and without a Redux Store.</p>
-          <div className="row" id="equalizer-projects" data-equalizer="equalizer-projects" data-equalize-on-stack="true" data-equalize-on="medium">
+          <div className="row" id="equalizer-portfolio-projects" data-equalizer="equalizer-portfolio-projects" data-equalize-on-stack="true" data-equalize-on="medium">
             {projectsData.map((category) => this.renderCategory(category))}
           </div>
         </div>

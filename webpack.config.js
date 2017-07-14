@@ -18,6 +18,11 @@ const config = {
     filename: '[name].[chunkhash].js',
     publicPath: './'
   },
+  resolve: {
+    alias: {
+      jquery: "jquery/dist/jquery.slim"
+    }
+  },  
   module: {
     rules: [
       {
